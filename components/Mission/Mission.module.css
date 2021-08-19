@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.h1 {
+  font-family: "Roboto", "sans-serif";
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 150px;
+  letter-spacing: 0.5rem;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.loading{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: cadetblue;
+    width: fit-content;
+    padding: 2%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.workTitle{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.workBody{
+    font-family: 'Roboto', sans-serif;
+}
+
+.workImg{
+    border-radius: 10px;
+    height: 10rem;
+}

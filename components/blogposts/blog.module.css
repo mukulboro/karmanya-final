@@ -1,0 +1,22 @@
+.blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .blog {
+    flex-direction: column;
+  }
+  .header {
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+  }
+}
