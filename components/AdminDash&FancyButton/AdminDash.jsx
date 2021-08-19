@@ -1,6 +1,7 @@
 import { FancyButton } from "./FancyButton"
 import { useRouter } from "next/dist/client/router";
 import styles from "./AdminDash.module.css"
+import Head from "next/head"
 
 export const AdminDash = ()=>{
     const router = useRouter();
@@ -18,6 +19,9 @@ export const AdminDash = ()=>{
     }
 
     return <>
+    <Head>
+        <title>Admin</title>
+    </Head>
     <section className={styles.mainHolder}>
     <div className={styles.leftPanel}>
         <section className={styles.leftPanelContent}>
